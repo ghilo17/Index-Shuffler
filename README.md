@@ -1,8 +1,8 @@
-<center>
+<div style="text-align: center;">
   <h1>Index-Shuffler</h1>
   <a href="http://javascript.com"><img src="https://www.javascript.com/images/pages/shared/logo.svg"/></a>
   <img src="https://img.shields.io/npm/l/express.svg"/>
-</center>
+</div>
 
 # Installation
 
