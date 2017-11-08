@@ -37,3 +37,13 @@ if (randomIndexes.length > 0) {
 }
 return randomIndexes;
 }
+
+function ShuffleArray(array){
+	var shuffleIndexes = generateShuffleIndexes(array.length);	
+	var shuffledArray = new Array();
+	for(var i = 0; i <= array.length - 1; i++){
+		shuffledArray[i] = array[shuffleIndexes[i]];
+	}
+	return shuffledArray;
+}
+
