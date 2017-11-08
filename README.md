@@ -27,10 +27,20 @@ randomIndexes[0] = Math.floor((Math.random() * numberOfIndexes));
 
 ....
 }
+
+function ShuffleArray(array){
+	var shuffleIndexes = generateShuffleIndexes(array.length);	
+	var shuffledArray = new Array();
+	for(var i = 0; i <= array.length - 1; i++){
+		shuffledArray[i] = array[shuffleIndexes[i]];
+	}
+	return shuffledArray;
+}
 ```
 
 Implementation:
 
+<h4>If you only want to gain shuffled indexes</h4>
 ```
 console.log(generateShuffleIndexes(20));
 ```
@@ -59,4 +69,20 @@ Possible Output:
 19:3
 ```
 
+<h4>If you want to output the shuffled array</h4>
+```
+var myArray = ["Array1", "Array2", "Array3", "Array4", "Array5"];
+console.log(ShuffleArray(myArray));
+```
+
+Possible Output:
+```
+0:"Array2"
+1:"Array1"
+2:"Array4"
+3:"Array5"
+4:"Array3"
+```
+
+<h2>Check this <a href="https://github.com/ghilo17/Index-Shuffler/tree/demo">DEMO</a></h2>
 Return an array of integers as shuffled starting from 0, to be used as indexes as an alternative of Collections.shuffle() which is not supported by JS
