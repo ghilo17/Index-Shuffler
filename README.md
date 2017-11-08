@@ -10,9 +10,11 @@
 <ol>
 	<li>Download or Clone this repository</li>
 	<li>Import the js file to your site</li>
-	```
-	<script src="indexShuffler.js"></script>
-	```
+
+	<code>
+	 <script src="indexShuffler.js"></script>
+	</code>
+
 </ol>
 
 # How to Use?
