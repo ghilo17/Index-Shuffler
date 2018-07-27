@@ -87,5 +87,5 @@ Possible Output:
 4:"Array3"
 ```
 
-<h2>Check this <a href="https://ghilo17.github.io/Index-Shuffler/">DEMO</a></h2>
+<h2>Check this <a href="https://gicontz.github.io/Index-Shuffler/">DEMO</a></h2>
 Return an array of integers as shuffled starting from 0, to be used as indexes as an alternative of Collections.shuffle() which is not supported by JS
