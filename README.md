@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">Index-Shuffler</h1>
-  <a align="center" href="http://javascript.com"><img src="https://www.javascript.com/images/favicon.ico"/></a>
+  <a align="center" href="http://javascript.com"><img src="https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png?w=70"/></a>
 	<br/>
   <img align="center" src="https://img.shields.io/npm/l/express.svg"/>
 </div>
